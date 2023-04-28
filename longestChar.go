@@ -1,4 +1,4 @@
-package stringq
+package main
 
 import (
 	"fmt"
