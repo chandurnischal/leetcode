@@ -34,11 +34,10 @@ func HowSumDP(target int, nums []int, memo map[int][]int) []int {
 		remainder := target - num
 		res := HowSumDP(remainder, nums, memo)
 		if res != nil {
-			res = append(res, num)
-			memo[target] = res
+			memo[target] = append(res, num)
 			return memo[target]
 		}
 	}
 	memo[target] = nil
-	return nil
+	return memo[target]
 }
