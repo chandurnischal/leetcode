@@ -1,4 +1,4 @@
-package main
+package leetcode
 
 // question 2057
 func SmallestEqual(nums []int) int {

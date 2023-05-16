@@ -1,4 +1,4 @@
-package main
+package leetcode
 
 // question 2078
 func MaxDistance(colours []int) int {

@@ -1,4 +1,4 @@
-package main
+package leetcode
 
 // question 69
 func Sqrt(n int) int {

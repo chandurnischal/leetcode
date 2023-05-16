@@ -1,4 +1,4 @@
-package main
+package leetcode
 
 var memo = make(map[int]int)
 

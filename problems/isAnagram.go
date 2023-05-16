@@ -1,4 +1,4 @@
-package main
+package leetcode
 
 // question 242
 func IsAnagram(str1, str2 string) bool {

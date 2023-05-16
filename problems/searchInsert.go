@@ -1,4 +1,4 @@
-package main
+package leetcode
 
 // question 35
 func SearchInsert(nums []int, target int) int {
