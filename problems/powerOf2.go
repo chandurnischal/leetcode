@@ -5,6 +5,8 @@ import (
 	"strconv"
 )
 
+// refer isPowerOfN function for generalised solution
+
 // question 231
 func IsPowerOf2(n int) bool {
 	if n < 0 {
